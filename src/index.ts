@@ -1,6 +1,6 @@
 const person: {
   name: string;
-  fatherName: "Rahim Ullah"; // ---> Literal type checking.
+  readonly fatherName: string; // ---> Access modifier
   age: number;
   isMarried?: boolean;
 } = {
