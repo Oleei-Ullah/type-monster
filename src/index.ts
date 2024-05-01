@@ -1,5 +1,4 @@
-const person : {name: string; age: number, married: boolean} = {
-    name: "abdullah",
+const person : {name: string; age: number, married?: boolean} = {
+    name: "Karim Ullah",
     age: 23,
-    married: true
 }
