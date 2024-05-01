@@ -24,3 +24,10 @@ const car= {
 }
 
 car.cost(6)
+
+//Array methods type checking
+
+const arr : string[] = ["3", "6"];
+
+const squaredArray = arr.map((ele: string) : number => Number(ele + ele))
+console.log(squaredArray);
