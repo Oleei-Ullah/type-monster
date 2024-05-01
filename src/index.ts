@@ -11,3 +11,16 @@ sum(2,3)
 const addArrow = (num1: number, num2: number = 40) : number => num1 * num2;
 
 console.log(addArrow(3))
+
+//Type checking in Object methods
+
+const car= {
+    name : "Toyota",
+    milage: 40,
+    cost(hour: number) : number {
+        console.log(this.milage * hour)
+        return this.milage * hour * 5
+    }
+}
+
+car.cost(6)
