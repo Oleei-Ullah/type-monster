@@ -8,3 +8,4 @@ const printGreeting = (pt: {name: string; date: Date}) => {
 }
 
 printGreeting({name: myName, date: new Date()})
+
