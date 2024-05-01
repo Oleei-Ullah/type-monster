@@ -27,7 +27,7 @@ car.cost(6)
 
 //Array methods type checking
 
-const arr : string[] = ["3", "6"];
+const arr : number[] = [2,3,34,56];
 
-const squaredArray = arr.map((ele: string) : number => Number(ele + ele))
+const squaredArray = arr.map((ele: number) : number => ele * ele);
 console.log(squaredArray);

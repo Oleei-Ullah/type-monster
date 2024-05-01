@@ -19,6 +19,6 @@ const car = {
 };
 car.cost(6);
 //Array methods type checking
-const arr = ["3", "6"];
-const squaredArray = arr.map((ele) => Number(ele + ele));
+const arr = [2, 3, 34, 56];
+const squaredArray = arr.map((ele) => ele * ele);
 console.log(squaredArray);
