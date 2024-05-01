@@ -1,11 +1,6 @@
-const person: {
-  name: string;
-  readonly fatherName: string; // ---> Access modifier
-  age: number;
-  isMarried?: boolean;
-} = {
-  name: "Karim Ullah",
-  fatherName: "Rahim Ullah",
-  age: 23,
-  isMarried: true,
-};
+function sum(num1 : number, num2: number) : string {
+    console.log(`My balanec is ${num1 * num2}`)
+    return `My balanec is ${num1 * num2}`
+}
+
+sum(2,3)
